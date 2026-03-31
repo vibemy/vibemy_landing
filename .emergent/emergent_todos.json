@@ -1,0 +1,46 @@
+[
+  {
+    "content": "Phase 1: Draft complete landing page copy (all sections + 3 hero headlines + 3 CTAs + investor pitch)",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 1: Get design guidelines from design agent",
+    "status": "in_progress"
+  },
+  {
+    "content": "Phase 1: Build skeleton UI with section scaffolding + navigation + CTAs",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 1: Review and iterate copy for investor clarity",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 1: All user stories covered - test skeleton version",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: Install required dependencies (React icons, animations)",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: Implement premium UI with shadcn/ui components",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: Add subtle animations and interactions",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: Finalize content and ensure investor-grade voice",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: All user stories covered in Development and testing",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 2: End to End Testing using Testing Agent",
+    "status": "pending"
+  }
+]
