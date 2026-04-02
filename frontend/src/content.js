@@ -242,8 +242,8 @@ export const content = {
     ],
     scalability: [
       {
-        title: 'Volante de Datos',
-        description: 'Cada interacción entrena el modelo. Más clientes = mejor IA = mayor retención y expansión.'
+        title: 'Motor de Aprendizaje Inteligente',
+        description: 'Cada interacción del equipo entrena la IA. Más uso = mejores presentaciones = mayor conversión y rendimiento.'
       },
       {
         title: 'Biblioteca de Contenido Compuesto',
