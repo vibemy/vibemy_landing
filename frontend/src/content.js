@@ -230,7 +230,7 @@ export const content = {
 
   // Investor Value Proposition
   investors: {
-    title: 'Por Qué los Inversionistas Deberían Interesarse',
+    title: 'Por Que Esto Es Importante!',
     subtitle: 'Esta es una oportunidad que define la categoría en un mercado masivo y desatendido.',
     thesis: [
       'La habilitación de ventas es un mercado de más de $10B que crece al 15%+ anualmente',
