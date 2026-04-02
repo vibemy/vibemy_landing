@@ -192,7 +192,7 @@ export const content = {
       {
         metric: 'Tiempo de Integración Más Rápido',
         description: 'Reduce el tiempo hasta productividad de meses a semanas',
-        example: 'Objetivo: 6 meses a 6 semanas',
+        example: 'Prepara a los representantes en tiempo record',
         icon: 'Zap'
       },
       {
