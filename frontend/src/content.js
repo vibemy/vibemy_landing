@@ -246,10 +246,6 @@ export const content = {
         description: 'Cada interacción entrena el modelo. Más clientes = mejor IA = mayor retención y expansión.'
       },
       {
-        title: 'Preparación Multi-Tenant',
-        description: 'Construido para escala empresarial desde el día uno. Agrega clientes sin agregar costos de infraestructura.'
-      },
-      {
         title: 'Biblioteca de Contenido Compuesto',
         description: 'Los recursos de capacitación generados por IA crean una biblioteca que se vuelve más valiosa con el tiempo.'
       },
