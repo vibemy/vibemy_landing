@@ -85,7 +85,7 @@ export const content = {
 
   // Features by Persona
   features: {
-    title: 'Construido Para Cada Rol en Tu Organización de Ingresos',
+    title: 'Beneficios Para Todos!',
     subtitle: 'Una plataforma integral que escala desde representantes individuales hasta equipos de ventas empresariales.',
     personas: [
       {
