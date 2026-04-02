@@ -29,7 +29,7 @@ export const content = {
 
   // Problem Section
   problem: {
-    title: 'El Problema de Capacitación en Ventas Que Te Cuesta Ingresos',
+    title: 'Los retos que hacen una rotura del sistema de entrenamientos',
     subtitle: 'La habilitación de ventas tradicional está rota. Los resultados hablan por sí mismos.',
     painPoints: [
       {
