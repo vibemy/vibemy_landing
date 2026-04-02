@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,26 +6,39 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
-    --primary: 217 91% 55%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 222 47% 11%;
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
-    --accent: 214 95% 93%;
-    --accent-foreground: 222 47% 11%;
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+    --card: 222 47% 9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 47% 9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 190 95% 52%;
+    --primary-foreground: 222 47% 6%;
+    --secondary: 222 30% 14%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 222 30% 14%;
+    --muted-foreground: 215 20% 70%;
+    --accent: 196 92% 18%;
+    --accent-foreground: 210 40% 98%;
     --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 217 91% 55%;
-    --radius: 0.75rem;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 28% 22%;
+    --input: 215 28% 22%;
+    --ring: 190 95% 52%;
+    --radius: 1rem;
+    
+    /* Futuristic effects */
+    --glass-bg: rgba(255,255,255,0.06);
+    --glass-bg-strong: rgba(255,255,255,0.10);
+    --glass-border: rgba(255,255,255,0.12);
+    --shadow-elev-1: 0 10px 30px rgba(0,0,0,0.35);
+    --shadow-elev-2: 0 18px 60px rgba(0,0,0,0.45);
+    --glow-cyan: 0 0 0 1px rgba(34,211,238,0.25), 0 0 24px rgba(34,211,238,0.18);
+    --glow-blue: 0 0 0 1px rgba(96,165,250,0.22), 0 0 26px rgba(96,165,250,0.16);
+    --grid-line: rgba(255,255,255,0.06);
+    --scanline: rgba(255,255,255,0.05);
+    --noise-opacity: 0.06;
+    --focus-ring: 0 0 0 3px rgba(34,211,238,0.35);
   }
 }
 
@@ -33,12 +46,69 @@
   * {
     @apply border-border;
   }
+  
   body {
-    @apply bg-background text-foreground;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    @apply bg-[#070A12] text-foreground;
+    font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    position: relative;
   }
+  
+  /* Grid overlay effect */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      repeating-linear-gradient(0deg, transparent 0 99px, var(--grid-line) 99px 100px),
+      repeating-linear-gradient(90deg, transparent 0 99px, var(--grid-line) 99px 100px);
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  /* Scanline effect */
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+      180deg,
+      transparent 0 2px,
+      var(--scanline) 2px 3px
+    );
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 1;
+    animation: scanline 8s linear infinite;
+  }
+  
+  @keyframes scanline {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100px); }
+  }
+  
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    body::after {
+      animation: none;
+    }
+  }
+  
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+    font-family: 'Space Grotesk', 'IBM Plex Sans', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+  
+  /* Ensure content is above grid/scanline overlays */
+  #root {
+    position: relative;
+    z-index: 2;
   }
 }
 
@@ -47,71 +117,29 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Custom scrollbar */
+/* Custom scrollbar - futuristic */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-secondary;
+  @apply bg-secondary/50;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-muted-foreground/30 rounded-full;
+  @apply bg-cyan-300/30 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-muted-foreground/50;
+  @apply bg-cyan-300/50;
 }
 
-/* Selection */
+/* Selection - cyan glow */
 ::selection {
-  @apply bg-primary/20 text-foreground;
+  @apply bg-cyan-300/20 text-foreground;
 }
 
-/* Noise texture overlay for hero */
-.hero-noise {
-  background-image: 
-    radial-gradient(60% 60% at 20% 10%, rgba(29,99,220,0.14) 0%, rgba(29,99,220,0.00) 60%), 
-    radial-gradient(50% 50% at 80% 20%, rgba(10,37,64,0.10) 0%, rgba(10,37,64,0.00) 55%);
-}
-
-/* Animations */
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.animate-fade-in-up {
-  animation: fade-in-up 0.5s ease-out;
-}
-
-.animate-fade-in {
-  animation: fade-in 0.3s ease-out;
-}
-
-/* Respect reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
+/* Tabular numbers for metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
 }

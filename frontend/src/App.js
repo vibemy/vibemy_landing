@@ -115,7 +115,7 @@ function App() {
         data-testid="site-nav"
         className={`fixed top-0 inset-x-0 z-50 transition-all duration-200 ${
           navScrolled
-            ? 'bg-background/80 nav-blur border-b border-border/70'
+            ? 'nav-glass'
             : 'bg-transparent'
         }`}
       >
@@ -211,7 +211,7 @@ function App() {
       <section
         id="hero"
         data-testid="hero-section"
-        className="hero-section hero-noise pt-32 pb-20"
+        className="hero-section hero-glow pt-32 pb-20"
       >
         <div className="container-custom">
           <motion.div
@@ -220,12 +220,12 @@ function App() {
             transition={{ duration: 0.6 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <Badge className="mb-6 badge-primary">
+            <Badge className="mb-6 badge-futuristic">
               <Sparkles className="w-3 h-3 mr-1" />
               {content.hero.badge}
             </Badge>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6 glow-text">
               {content.hero.headline}
             </h1>
 
@@ -238,7 +238,7 @@ function App() {
                 data-testid="hero-book-demo-button"
                 size="lg"
                 onClick={() => scrollToSection('demo')}
-                className="btn-primary w-full sm:w-auto"
+                className="btn-primary-futuristic w-full sm:w-auto"
               >
                 {content.hero.primaryCTA}
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -248,7 +248,7 @@ function App() {
                 size="lg"
                 variant="outline"
                 onClick={() => scrollToSection('solution')}
-                className="w-full sm:w-auto"
+                className="w-full sm:w-auto btn-secondary-glass"
               >
                 {content.hero.secondaryCTA}
               </Button>
@@ -267,9 +267,9 @@ function App() {
               { icon: Briefcase, label: 'Managers', count: 'Training Automation' },
               { icon: TrendingUp, label: 'Leadership', count: 'Performance Visibility' }
             ].map((item, i) => (
-              <Card key={i} className="card-shadow-hover border-border/80">
+              <Card key={i} className="glass-card holo-edge">
                 <CardContent className="pt-6">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 text-primary mb-4 mx-auto">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-cyan-300/10 text-cyan-300 mb-4 mx-auto icon-glow">
                     <item.icon className="w-6 h-6" />
                   </div>
                   <h3 className="text-lg font-semibold text-center mb-2">{item.label}</h3>
@@ -281,7 +281,7 @@ function App() {
         </div>
       </section>
 
-      <Separator />
+      <Separator className="separator-glow" />
 
       {/* Problem Section */}
       <section
@@ -314,7 +314,7 @@ function App() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full card-shadow-hover border-border/80">
+                <Card className="h-full glass-card">
                   <CardHeader>
                     <CardTitle className="text-lg">{pain.title}</CardTitle>
                     <CardDescription className="text-sm leading-relaxed">
@@ -322,7 +322,7 @@ function App() {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="px-3 py-2 bg-destructive/10 text-destructive rounded-lg text-sm font-medium inline-block">
+                    <div className="stat-destructive">
                       {pain.stat}
                     </div>
                   </CardContent>
@@ -333,7 +333,7 @@ function App() {
         </div>
       </section>
 
-      <Separator />
+      <Separator className="separator-glow" />
 
       {/* Solution Section */}
       <section
@@ -366,11 +366,11 @@ function App() {
                 transition={{ duration: 0.5, delay: index * 0.15 }}
                 viewport={{ once: true }}
               >
-                <Card className="card-shadow-hover border-border/80">
+                <Card className="glass-card">
                   <CardContent className="pt-6">
                     <div className="flex items-start gap-6">
                       <div className="flex-shrink-0">
-                        <div className="w-14 h-14 rounded-lg bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold">
+                        <div className="w-14 h-14 rounded-xl bg-cyan-300/10 text-cyan-300 flex items-center justify-center text-xl font-bold icon-glow">
                           {step.number}
                         </div>
                       </div>
@@ -389,7 +389,7 @@ function App() {
         </div>
       </section>
 
-      <Separator />
+      <Separator className="separator-glow" />
 
       {/* Features by Persona Section */}
       <section
@@ -442,10 +442,10 @@ function App() {
                       transition={{ duration: 0.4, delay: index * 0.05 }}
                       viewport={{ once: true }}
                     >
-                      <Card className="h-full card-shadow-hover border-border/80">
+                      <Card className="h-full glass-card holo-border">
                         <CardHeader>
                           <CardTitle className="text-base flex items-start gap-2">
-                            <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                            <CheckCircle className="w-5 h-5 text-cyan-300 flex-shrink-0 mt-0.5" />
                             <span>{feature.title}</span>
                           </CardTitle>
                         </CardHeader>
@@ -464,7 +464,7 @@ function App() {
         </div>
       </section>
 
-      <Separator />
+      <Separator className="separator-glow" />
 
       {/* Business Impact Section */}
       <section
@@ -499,16 +499,16 @@ function App() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
                 >
-                  <Card className="h-full card-shadow-hover border-border/80">
+                  <Card className="h-full metric-card">
                     <CardContent className="pt-6">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 text-primary mb-4">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-cyan-300/10 text-cyan-300 mb-4 icon-glow">
                         <Icon className="w-6 h-6" />
                       </div>
                       <h3 className="text-lg font-semibold mb-2">{outcome.metric}</h3>
                       <p className="text-sm text-muted-foreground mb-3 leading-relaxed">
                         {outcome.description}
                       </p>
-                      <div className="px-3 py-1.5 bg-accent text-accent-foreground rounded-lg text-xs font-medium inline-block">
+                      <div className="stat-info">
                         {outcome.example}
                       </div>
                     </CardContent>
@@ -520,7 +520,7 @@ function App() {
         </div>
       </section>
 
-      <Separator />
+      <Separator className="separator-glow" />
 
       {/* Investor Value Section */}
       <section
@@ -552,7 +552,7 @@ function App() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <Card className="card-shadow border-border/80">
+              <Card className="glass-card">
                 <CardHeader>
                   <CardTitle>Investment Thesis</CardTitle>
                 </CardHeader>
@@ -560,7 +560,7 @@ function App() {
                   <ul className="space-y-3">
                     {content.investors.thesis.map((point, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle className="w-5 h-5 text-cyan-300 flex-shrink-0 mt-0.5" />
                         <span className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                           {point}
                         </span>
@@ -580,7 +580,7 @@ function App() {
               className="space-y-6"
             >
               {content.investors.scalability.map((item, index) => (
-                <Card key={index} className="card-shadow-hover border-border/80">
+                <Card key={index} className="glass-card holo-border">
                   <CardHeader>
                     <CardTitle className="text-base">{item.title}</CardTitle>
                   </CardHeader>
@@ -596,7 +596,7 @@ function App() {
         </div>
       </section>
 
-      <Separator />
+      <Separator className="separator-glow" />
 
       {/* Traction Section */}
       <section
@@ -632,10 +632,10 @@ function App() {
               <h3 className="text-lg font-semibold mb-6">Key Milestones</h3>
               <div className="space-y-4">
                 {content.traction.milestones.map((milestone, index) => (
-                  <Card key={index} className="card-shadow-hover border-border/80">
+                  <Card key={index} className="glass-card">
                     <CardContent className="pt-6">
                       <div className="flex items-center gap-4">
-                        <Badge variant="outline" className="shrink-0">
+                        <Badge variant="outline" className="shrink-0 border-cyan-300/30 text-cyan-300">
                           {milestone.quarter}
                         </Badge>
                         <p className="text-sm sm:text-base">
@@ -661,7 +661,7 @@ function App() {
               <h3 className="text-lg font-semibold mb-6">Next 2 Quarters Roadmap</h3>
               <div className="flex flex-wrap gap-3">
                 {content.traction.roadmap.map((item, index) => (
-                  <Badge key={index} variant="secondary" className="px-3 py-1.5">
+                  <Badge key={index} variant="secondary" className="px-3 py-1.5 bg-white/5 border border-white/10 text-foreground">
                     {item}
                   </Badge>
                 ))}
@@ -671,7 +671,7 @@ function App() {
         </div>
       </section>
 
-      <Separator />
+      <Separator className="separator-glow" />
 
       {/* Demo Form Section */}
       <section
@@ -696,7 +696,7 @@ function App() {
               </p>
             </div>
 
-            <Card className="card-shadow border-border/80">
+            <Card className="glass-card holo-edge">
               <CardContent className="pt-6">
                 <form data-testid="demo-request-form" onSubmit={handleSubmit} className="space-y-6">
                   <div className="space-y-2">
@@ -708,7 +708,7 @@ function App() {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       required
-                      className="focus-ring"
+                      className="input-glass"
                     />
                   </div>
 
@@ -721,7 +721,7 @@ function App() {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
-                      className="focus-ring"
+                      className="input-glass"
                     />
                   </div>
 
@@ -734,7 +734,7 @@ function App() {
                       value={formData.company}
                       onChange={(e) => setFormData({ ...formData, company: e.target.value })}
                       required
-                      className="focus-ring"
+                      className="input-glass"
                     />
                   </div>
 
@@ -746,7 +746,7 @@ function App() {
                       type="text"
                       value={formData.role}
                       onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                      className="focus-ring"
+                      className="input-glass"
                     />
                   </div>
 
@@ -758,14 +758,14 @@ function App() {
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       rows={4}
-                      className="focus-ring resize-none"
+                      className="input-glass resize-none"
                     />
                   </div>
 
                   <Button
                     type="submit"
                     data-testid="demo-form-submit-button"
-                    className="w-full btn-primary"
+                    className="w-full btn-primary-futuristic"
                     size="lg"
                   >
                     {content.demoForm.submitButton}
