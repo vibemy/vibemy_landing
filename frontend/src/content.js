@@ -2,7 +2,7 @@
 
 export const content = {
   // Company Info
-  companyName: '[Nombre de la Empresa]',
+  companyName: 'Sales Academy',
   
   // Hero Headlines (3 alternatives)
   heroHeadlines: [
@@ -297,7 +297,7 @@ export const content = {
   // Demo Form
   demoForm: {
     title: 'Construyamos Juntos el Futuro de la Habilitación de Ventas',
-    subtitle: 'Solicita una demo para ver cómo [Nombre de la Empresa] puede transformar tu organización de ventas.',
+    subtitle: 'Solicita una demo para ver cómo Sales Academy puede transformar tu organización de ventas.',
     fields: {
       name: 'Nombre Completo',
       email: 'Correo Electrónico',
@@ -316,9 +316,9 @@ export const content = {
       { label: 'Términos de Servicio', href: '#' },
       { label: 'Contacto', href: '#' }
     ],
-    legal: '2025 [Nombre de la Empresa]. Todos los derechos reservados.'
+    legal: '2025 Sales Academy. Todos los derechos reservados.'
   },
 
   // Investor Pitch Summary (5-7 sentences)
-  pitchSummary: '[Nombre de la Empresa] está construyendo la plataforma de preparación de ventas impulsada por IA que reduce el tiempo de integración, mejora la consistencia del coaching y disminuye la rotación para organizaciones de ventas B2B. Servimos un mercado de más de $10B donde cada empresa lucha con el mismo problema: los nuevos representantes de ventas tardan demasiado en volverse productivos, y la calidad de la capacitación varía enormemente. Nuestra plataforma entrega coaching de IA 24/7 para representantes, automatización para gerentes y visibilidad del rendimiento en tiempo real para el liderazgo - todo en un ecosistema. Hemos construido un volante de datos defensible: cada interacción entrena el modelo, creando valor compuesto para los clientes y efectos de red para el negocio. Con altos márgenes brutos, ingresos SaaS predecibles y un movimiento de aterrizar y expandir, estamos posicionados para convertirnos en el líder de categoría en habilitación de ventas nativa de IA. Esta es una oportunidad generacional para transformar cómo las empresas escalan equipos de ingresos.'
+  pitchSummary: 'Sales Academy está construyendo la plataforma de preparación de ventas impulsada por IA que reduce el tiempo de integración, mejora la consistencia del coaching y disminuye la rotación para organizaciones de ventas B2B. Servimos un mercado de más de $10B donde cada empresa lucha con el mismo problema: los nuevos representantes de ventas tardan demasiado en volverse productivos, y la calidad de la capacitación varía enormemente. Nuestra plataforma entrega coaching de IA 24/7 para representantes, automatización para gerentes y visibilidad del rendimiento en tiempo real para el liderazgo - todo en un ecosistema. Hemos construido un volante de datos defensible: cada interacción entrena el modelo, creando valor compuesto para los clientes y efectos de red para el negocio. Con altos márgenes brutos, ingresos SaaS predecibles y un movimiento de aterrizar y expandir, estamos posicionados para convertirnos en el líder de categoría en habilitación de ventas nativa de IA. Esta es una oportunidad generacional para transformar cómo las empresas escalan equipos de ingresos.'
 };
