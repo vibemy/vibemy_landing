@@ -1,183 +1,183 @@
-// Landing Page Content - Investor-Ready Copy
+// Landing Page Content - Investor-Ready Copy (Spanish)
 
 export const content = {
   // Company Info
-  companyName: '[Company Name]',
+  companyName: '[Nombre de la Empresa]',
   
   // Hero Headlines (3 alternatives)
   heroHeadlines: [
-    'The AI-Powered Sales Readiness Platform That Scales Your Revenue Team',
-    'Transform Sales Onboarding From Months to Weeks With AI Coaching',
-    'Reduce Turnover, Accelerate Ramp Time, and Scale Sales Excellence'
+    'La Plataforma de Preparación de Ventas con IA Que Escala Tu Equipo de Ingresos',
+    'Transforma la Incorporación de Ventas de Meses a Semanas con Coaching de IA',
+    'Reduce la Rotación, Acelera el Tiempo de Integración y Escala la Excelencia en Ventas'
   ],
   
   // Using first headline as default
   hero: {
-    headline: 'The AI-Powered Sales Readiness Platform That Scales Your Revenue Team',
-    subheadline: 'An enterprise sales enablement ecosystem that delivers 24/7 AI coaching, personalized training, and performance visibility across your entire organization - reducing ramp time, lowering turnover, and driving consistent revenue growth.',
-    primaryCTA: 'Book a Demo',
-    secondaryCTA: 'View Platform Overview',
-    badge: 'AI-Powered Sales Enablement'
+    headline: 'La Plataforma de Preparación de Ventas con IA Que Escala Tu Equipo de Ingresos',
+    subheadline: 'Un ecosistema empresarial de habilitación de ventas que ofrece coaching de IA 24/7, capacitación personalizada y visibilidad del rendimiento en toda tu organización - reduciendo el tiempo de integración, disminuyendo la rotación e impulsando un crecimiento constante de ingresos.',
+    primaryCTA: 'Solicitar Demo',
+    secondaryCTA: 'Ver Descripción de la Plataforma',
+    badge: 'Habilitación de Ventas con IA'
   },
 
   // CTA Options (3 alternatives)
   ctaOptions: [
-    'Book a Demo',
-    'Schedule a Conversation',
-    'Request Access'
+    'Solicitar Demo',
+    'Agendar una Conversación',
+    'Solicitar Acceso'
   ],
 
   // Problem Section
   problem: {
-    title: 'The Sales Training Problem Costing You Revenue',
-    subtitle: 'Traditional sales enablement is broken. The results speak for themselves.',
+    title: 'El Problema de Capacitación en Ventas Que Te Cuesta Ingresos',
+    subtitle: 'La habilitación de ventas tradicional está rota. Los resultados hablan por sí mismos.',
     painPoints: [
       {
-        title: 'Slow Ramp Times',
-        description: 'New sales reps take 6-12 months to reach full productivity, costing thousands in lost revenue per rep.',
-        stat: '6-12 months to productivity'
+        title: 'Tiempos de Integración Lentos',
+        description: 'Los nuevos representantes de ventas tardan de 6 a 12 meses en alcanzar la productividad total, costando miles en ingresos perdidos por representante.',
+        stat: '6-12 meses hasta productividad'
       },
       {
-        title: 'Inconsistent Coaching',
-        description: 'Training quality varies by manager availability and expertise, creating performance gaps across your team.',
-        stat: '70% of reps lack consistent coaching'
+        title: 'Coaching Inconsistente',
+        description: 'La calidad del entrenamiento varía según la disponibilidad y experiencia del gerente, creando brechas de rendimiento en tu equipo.',
+        stat: '70% de representantes carecen de coaching consistente'
       },
       {
-        title: 'Manager Bandwidth Constraints',
-        description: 'Sales managers spend 40+ hours per month on repetitive training tasks instead of strategic coaching.',
-        stat: '40+ hours/month on training admin'
+        title: 'Limitaciones de Tiempo del Gerente',
+        description: 'Los gerentes de ventas dedican más de 40 horas al mes en tareas repetitivas de capacitación en lugar de coaching estratégico.',
+        stat: '40+ horas/mes en administración de capacitación'
       },
       {
-        title: 'High Turnover Costs',
-        description: 'Unprepared reps fail faster. The average cost to replace a sales rep exceeds $115,000 in recruiting, training, and lost opportunity.',
-        stat: '$115K+ average replacement cost'
+        title: 'Altos Costos de Rotación',
+        description: 'Los representantes no preparados fallan más rápido. El costo promedio de reemplazar un representante de ventas supera los $115,000 en reclutamiento, capacitación y oportunidades perdidas.',
+        stat: '$115K+ costo promedio de reemplazo'
       },
       {
-        title: 'Zero Performance Visibility',
-        description: 'Leadership lacks real-time insights into rep readiness, skill gaps, and training ROI until it is too late.',
-        stat: 'Reactive instead of predictive'
+        title: 'Cero Visibilidad del Rendimiento',
+        description: 'El liderazgo carece de información en tiempo real sobre la preparación de los representantes, brechas de habilidades y ROI de capacitación hasta que es demasiado tarde.',
+        stat: 'Reactivo en lugar de predictivo'
       }
     ]
   },
 
   // Solution Section
   solution: {
-    title: 'One Platform. Three Audiences. Continuous Sales Excellence.',
-    subtitle: 'An AI-powered sales readiness ecosystem that supports representatives, empowers managers, and gives leadership the visibility they need to scale revenue efficiently.',
+    title: 'Una Plataforma. Tres Audiencias. Excelencia en Ventas Continua.',
+    subtitle: 'Un ecosistema de preparación de ventas impulsado por IA que apoya a los representantes, empodera a los gerentes y brinda al liderazgo la visibilidad que necesitan para escalar ingresos de manera eficiente.',
     steps: [
       {
         number: '01',
-        title: 'Build Your Knowledge Base',
-        description: 'Sales managers train the AI model with your unique processes, messaging, scripts, and best practices. The platform becomes your company sales knowledge.'
+        title: 'Construye Tu Base de Conocimiento',
+        description: 'Los gerentes de ventas entrenan el modelo de IA con tus procesos únicos, mensajes, guiones y mejores prácticas. La plataforma se convierte en el conocimiento de ventas de tu empresa.'
       },
       {
         number: '02',
-        title: 'AI Coaches Reps 24/7',
-        description: 'Sales representatives get instant access to on-demand training, live call coaching, role-play scenarios, goal tracking, and performance reminders - personalized to their learning path.'
+        title: 'IA Entrena Representantes 24/7',
+        description: 'Los representantes de ventas obtienen acceso instantáneo a capacitación bajo demanda, coaching de llamadas en vivo, escenarios de juego de roles, seguimiento de objetivos y recordatorios de rendimiento - personalizados a su ruta de aprendizaje.'
       },
       {
         number: '03',
-        title: 'Leadership Gains Visibility',
-        description: 'Directors track rep achievements, readiness scores, skill development, and performance trends across the organization in real-time dashboards.'
+        title: 'El Liderazgo Gana Visibilidad',
+        description: 'Los directores rastrean logros de representantes, puntajes de preparación, desarrollo de habilidades y tendencias de rendimiento en toda la organización en tableros en tiempo real.'
       }
     ]
   },
 
   // Features by Persona
   features: {
-    title: 'Built for Every Role in Your Revenue Organization',
-    subtitle: 'A comprehensive platform that scales from individual reps to enterprise sales teams.',
+    title: 'Construido Para Cada Rol en Tu Organización de Ingresos',
+    subtitle: 'Una plataforma integral que escala desde representantes individuales hasta equipos de ventas empresariales.',
     personas: [
       {
         id: 'reps',
-        label: 'Sales Representatives',
+        label: 'Representantes de Ventas',
         icon: 'Users',
         features: [
           {
-            title: '24/7 AI Sales Coach',
-            description: 'Get instant answers, guidance, and support whenever you need it - no waiting for manager availability.'
+            title: 'Coach de Ventas IA 24/7',
+            description: 'Obtén respuestas instantáneas, orientación y soporte cuando lo necesites - sin esperar disponibilidad del gerente.'
           },
           {
-            title: 'On-Demand Video Training',
-            description: 'Access a curated library of training content tailored to your role, stage, and skill gaps.'
+            title: 'Capacitación en Video Bajo Demanda',
+            description: 'Accede a una biblioteca curada de contenido de capacitación adaptado a tu rol, etapa y brechas de habilidades.'
           },
           {
-            title: 'Live Call Training & Role-Play',
-            description: 'Practice objection handling, discovery calls, and demos with AI feedback before customer interactions.'
+            title: 'Capacitación de Llamadas en Vivo y Juego de Roles',
+            description: 'Practica manejo de objeciones, llamadas de descubrimiento y demos con retroalimentación de IA antes de interacciones con clientes.'
           },
           {
-            title: 'AI Goal Sheets & Reminders',
-            description: 'Stay on track with personalized goals, milestones, and intelligent reminders for tasks and tours.'
+            title: 'Hojas de Objetivos y Recordatorios IA',
+            description: 'Mantente en el camino con objetivos personalizados, hitos y recordatorios inteligentes para tareas y recorridos.'
           },
           {
-            title: 'Performance Insights',
-            description: 'See your progress, skill development, and readiness scores in real-time to own your growth.'
+            title: 'Información de Rendimiento',
+            description: 'Ve tu progreso, desarrollo de habilidades y puntajes de preparación en tiempo real para apropiarte de tu crecimiento.'
           },
           {
-            title: 'Mobile-First Learning',
-            description: 'Train anywhere, anytime with a seamless mobile experience designed for field reps.'
+            title: 'Aprendizaje Móvil Primero',
+            description: 'Entrena en cualquier lugar, en cualquier momento con una experiencia móvil fluida diseñada para representantes de campo.'
           }
         ]
       },
       {
         id: 'managers',
-        label: 'Sales Managers',
+        label: 'Gerentes de Ventas',
         icon: 'Briefcase',
         features: [
           {
-            title: 'Train the AI Model',
-            description: 'Upload scripts, playbooks, call recordings, and processes to build a custom AI coach aligned with your methodology.'
+            title: 'Entrena el Modelo de IA',
+            description: 'Sube guiones, manuales, grabaciones de llamadas y procesos para construir un coach de IA personalizado alineado con tu metodología.'
           },
           {
-            title: 'Update Knowledge Base',
-            description: 'Keep training current by adding new messaging, product updates, and competitive intelligence continuously.'
+            title: 'Actualiza la Base de Conocimiento',
+            description: 'Mantén la capacitación actualizada agregando nuevos mensajes, actualizaciones de productos e inteligencia competitiva continuamente.'
           },
           {
-            title: 'Generate Training Assets',
-            description: 'AI creates training videos, scripts, PDFs, quizzes, and exams automatically from your knowledge base.'
+            title: 'Genera Recursos de Capacitación',
+            description: 'La IA crea videos de capacitación, guiones, PDFs, cuestionarios y exámenes automáticamente desde tu base de conocimiento.'
           },
           {
-            title: 'Team Performance Dashboards',
-            description: 'Monitor individual and team readiness, completion rates, and skill development at a glance.'
+            title: 'Tableros de Rendimiento del Equipo',
+            description: 'Monitorea la preparación individual y del equipo, tasas de finalización y desarrollo de habilidades de un vistazo.'
           },
           {
-            title: 'Automated Coaching Workflows',
-            description: 'Assign learning paths, set milestones, and trigger AI interventions based on performance signals.'
+            title: 'Flujos de Trabajo de Coaching Automatizados',
+            description: 'Asigna rutas de aprendizaje, establece hitos y activa intervenciones de IA basadas en señales de rendimiento.'
           },
           {
-            title: 'Manager Time Savings',
-            description: 'Offload repetitive training tasks to AI and focus on strategic coaching and deal support.'
+            title: 'Ahorro de Tiempo del Gerente',
+            description: 'Descarga tareas repetitivas de capacitación a la IA y enfócate en coaching estratégico y soporte de negocios.'
           }
         ]
       },
       {
         id: 'directors',
-        label: 'Directors & Leadership',
+        label: 'Directores y Liderazgo',
         icon: 'TrendingUp',
         features: [
           {
-            title: 'Readiness Dashboards',
-            description: 'Track rep readiness scores, certification status, and time-to-productivity across the organization.'
+            title: 'Tableros de Preparación',
+            description: 'Rastrea puntajes de preparación de representantes, estado de certificación y tiempo hasta productividad en toda la organización.'
           },
           {
-            title: 'Achievement Tracking',
-            description: 'See milestones completed, skills mastered, and performance trends for every rep in real-time.'
+            title: 'Seguimiento de Logros',
+            description: 'Ve hitos completados, habilidades dominadas y tendencias de rendimiento para cada representante en tiempo real.'
           },
           {
-            title: 'Performance Analytics',
-            description: 'Correlate training completion, readiness scores, and quota attainment to prove enablement ROI.'
+            title: 'Analítica de Rendimiento',
+            description: 'Correlaciona finalización de capacitación, puntajes de preparación y logro de cuotas para probar el ROI de habilitación.'
           },
           {
-            title: 'Predictive Insights',
-            description: 'Identify at-risk reps early and intervene before performance issues escalate.'
+            title: 'Perspectivas Predictivas',
+            description: 'Identifica representantes en riesgo temprano e interviene antes de que los problemas de rendimiento escalen.'
           },
           {
-            title: 'Organizational Benchmarks',
-            description: 'Compare team performance, ramp times, and retention metrics across regions and cohorts.'
+            title: 'Referencias Organizacionales',
+            description: 'Compara rendimiento del equipo, tiempos de integración y métricas de retención entre regiones y cohortes.'
           },
           {
-            title: 'Scalable Infrastructure',
-            description: 'Onboard new reps, launch new teams, and enter new markets without scaling headcount linearly.'
+            title: 'Infraestructura Escalable',
+            description: 'Incorpora nuevos representantes, lanza nuevos equipos y entra a nuevos mercados sin escalar personal linealmente.'
           }
         ]
       }
@@ -186,43 +186,43 @@ export const content = {
 
   // Business Impact
   impact: {
-    title: 'Measurable Business Impact From Day One',
-    subtitle: 'The platform delivers outcomes that matter to your board and investors.',
+    title: 'Impacto Empresarial Medible Desde el Día Uno',
+    subtitle: 'La plataforma entrega resultados que importan a tu junta directiva e inversionistas.',
     outcomes: [
       {
-        metric: 'Faster Ramp Time',
-        description: 'Reduce time-to-productivity from months to weeks',
-        example: 'Target: 6 months to 6 weeks',
+        metric: 'Tiempo de Integración Más Rápido',
+        description: 'Reduce el tiempo hasta productividad de meses a semanas',
+        example: 'Objetivo: 6 meses a 6 semanas',
         icon: 'Zap'
       },
       {
-        metric: 'Consistent Coaching',
-        description: 'Every rep gets world-class training, regardless of manager',
-        example: '100% coverage, 24/7 availability',
+        metric: 'Coaching Consistente',
+        description: 'Cada representante recibe capacitación de clase mundial, independientemente del gerente',
+        example: '100% cobertura, disponibilidad 24/7',
         icon: 'Target'
       },
       {
-        metric: 'Reduced Manager Workload',
-        description: 'Free managers from repetitive tasks to focus on deals',
-        example: 'Target: 40+ hours saved/month',
+        metric: 'Carga de Trabajo Reducida del Gerente',
+        description: 'Libera a los gerentes de tareas repetitivas para enfocarse en negocios',
+        example: 'Objetivo: 40+ horas ahorradas/mes',
         icon: 'Clock'
       },
       {
-        metric: 'Lower Turnover',
-        description: 'Better-prepared reps stay longer and perform better',
-        example: 'Target: 20-30% turnover reduction',
+        metric: 'Menor Rotación',
+        description: 'Representantes mejor preparados permanecen más tiempo y rinden mejor',
+        example: 'Objetivo: 20-30% reducción de rotación',
         icon: 'Shield'
       },
       {
-        metric: 'Performance Visibility',
-        description: 'Real-time readiness and skill gap insights for leadership',
-        example: 'Predictive vs. reactive management',
+        metric: 'Visibilidad del Rendimiento',
+        description: 'Preparación en tiempo real e información sobre brechas de habilidades para el liderazgo',
+        example: 'Gestión predictiva vs. reactiva',
         icon: 'BarChart3'
       },
       {
-        metric: 'Revenue Acceleration',
-        description: 'More productive reps, faster ramp, lower costs = revenue growth',
-        example: 'Compounding margin leverage',
+        metric: 'Aceleración de Ingresos',
+        description: 'Representantes más productivos, integración más rápida, costos más bajos = crecimiento de ingresos',
+        example: 'Apalancamiento de margen compuesto',
         icon: 'TrendingUp'
       }
     ]
@@ -230,95 +230,95 @@ export const content = {
 
   // Investor Value Proposition
   investors: {
-    title: 'Why Investors Should Care',
-    subtitle: 'This is a category-defining opportunity in a massive, underserved market.',
+    title: 'Por Qué los Inversionistas Deberían Interesarse',
+    subtitle: 'Esta es una oportunidad que define la categoría en un mercado masivo y desatendido.',
     thesis: [
-      'Sales enablement is a $10B+ market growing at 15%+ annually',
-      'Every B2B company with a sales team needs better onboarding and coaching',
-      'AI creates defensible moats: data flywheel, continuous learning, and compounding content libraries',
-      'Multi-tenant SaaS model with high gross margins (80%+) and predictable recurring revenue',
-      'Network effects: more usage = better AI models = better outcomes',
-      'Land-and-expand motion: start with one team, scale across the enterprise'
+      'La habilitación de ventas es un mercado de más de $10B que crece al 15%+ anualmente',
+      'Toda empresa B2B con equipo de ventas necesita mejor incorporación y coaching',
+      'La IA crea barreras defensibles: volante de datos, aprendizaje continuo y bibliotecas de contenido compuesto',
+      'Modelo SaaS multi-tenant con altos márgenes brutos (80%+) e ingresos recurrentes predecibles',
+      'Efectos de red: más uso = mejores modelos de IA = mejores resultados',
+      'Movimiento de aterrizar y expandir: comienza con un equipo, escala en toda la empresa'
     ],
     scalability: [
       {
-        title: 'Data Flywheel',
-        description: 'Every interaction trains the model. More customers = better AI = higher retention and expansion.'
+        title: 'Volante de Datos',
+        description: 'Cada interacción entrena el modelo. Más clientes = mejor IA = mayor retención y expansión.'
       },
       {
-        title: 'Multi-Tenant Readiness',
-        description: 'Built for enterprise scale from day one. Add customers without adding infrastructure costs.'
+        title: 'Preparación Multi-Tenant',
+        description: 'Construido para escala empresarial desde el día uno. Agrega clientes sin agregar costos de infraestructura.'
       },
       {
-        title: 'Content Library Compounding',
-        description: 'AI-generated training assets create a library that grows more valuable over time.'
+        title: 'Biblioteca de Contenido Compuesto',
+        description: 'Los recursos de capacitación generados por IA crean una biblioteca que se vuelve más valiosa con el tiempo.'
       },
       {
-        title: 'Operational Leverage',
-        description: 'Customer success scales sub-linearly. Self-serve AI coaching reduces support burden.'
+        title: 'Apalancamiento Operacional',
+        description: 'El éxito del cliente escala sub-linealmente. El coaching de IA autoservicio reduce la carga de soporte.'
       }
     ]
   },
 
   // Traction (Placeholders)
   traction: {
-    title: 'Traction & Milestones',
-    subtitle: 'Building momentum with early customers and product-market fit validation.',
+    title: 'Tracción e Hitos',
+    subtitle: 'Construyendo impulso con clientes tempranos y validación de ajuste producto-mercado.',
     milestones: [
       {
-        quarter: 'Q4 2024',
-        achievement: 'Beta launch with 5 pilot customers',
+        quarter: 'T4 2024',
+        achievement: 'Lanzamiento Beta con 5 clientes piloto',
         placeholder: true
       },
       {
-        quarter: 'Q1 2025',
-        achievement: 'First paid contracts signed',
+        quarter: 'T1 2025',
+        achievement: 'Primeros contratos pagados firmados',
         placeholder: true
       },
       {
-        quarter: 'Q2 2025',
-        achievement: 'Expansion into mid-market segment',
+        quarter: 'T2 2025',
+        achievement: 'Expansión al segmento de mercado medio',
         placeholder: true
       },
       {
-        quarter: 'Q3 2025',
-        achievement: 'Enterprise customer #1 onboarded',
+        quarter: 'T3 2025',
+        achievement: 'Cliente empresarial #1 incorporado',
         placeholder: true
       }
     ],
     roadmap: [
-      'Advanced analytics and reporting',
-      'Integrations with Salesforce, HubSpot, Gong',
-      'Multi-language support',
-      'Mobile app release'
+      'Analítica avanzada e informes',
+      'Integraciones con Salesforce, HubSpot, Gong',
+      'Soporte multiidioma',
+      'Lanzamiento de aplicación móvil'
     ]
   },
 
   // Demo Form
   demoForm: {
-    title: 'Build the Future of Sales Enablement Together',
-    subtitle: 'Book a demo to see how [Company Name] can transform your sales organization.',
+    title: 'Construyamos Juntos el Futuro de la Habilitación de Ventas',
+    subtitle: 'Solicita una demo para ver cómo [Nombre de la Empresa] puede transformar tu organización de ventas.',
     fields: {
-      name: 'Full Name',
-      email: 'Email Address',
-      company: 'Company Name',
-      role: 'Your Role',
-      message: 'Tell us about your sales enablement challenges'
+      name: 'Nombre Completo',
+      email: 'Correo Electrónico',
+      company: 'Nombre de la Empresa',
+      role: 'Tu Rol',
+      message: 'Cuéntanos sobre tus desafíos de habilitación de ventas'
     },
-    submitButton: 'Request Demo',
-    successMessage: 'Thank you! We will be in touch within 24 hours.'
+    submitButton: 'Solicitar Demo',
+    successMessage: '¡Gracias! Estaremos en contacto dentro de 24 horas.'
   },
 
   // Footer
   footer: {
     links: [
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Terms of Service', href: '#' },
-      { label: 'Contact', href: '#' }
+      { label: 'Política de Privacidad', href: '#' },
+      { label: 'Términos de Servicio', href: '#' },
+      { label: 'Contacto', href: '#' }
     ],
-    legal: '2025 [Company Name]. All rights reserved.'
+    legal: '2025 [Nombre de la Empresa]. Todos los derechos reservados.'
   },
 
   // Investor Pitch Summary (5-7 sentences)
-  pitchSummary: '[Company Name] is building the AI-powered sales readiness platform that reduces ramp time, improves coaching consistency, and lowers turnover for B2B sales organizations. We serve a $10B+ market where every company struggles with the same problem: new sales reps take too long to become productive, and training quality varies wildly. Our platform delivers 24/7 AI coaching for reps, automation for managers, and real-time performance visibility for leadership - all in one ecosystem. We have built a defensible data flywheel: every interaction trains the model, creating compounding value for customers and network effects for the business. With high gross margins, predictable SaaS revenue, and a land-and-expand motion, we are positioned to become the category leader in AI-native sales enablement. This is a generational opportunity to transform how companies scale revenue teams.'
+  pitchSummary: '[Nombre de la Empresa] está construyendo la plataforma de preparación de ventas impulsada por IA que reduce el tiempo de integración, mejora la consistencia del coaching y disminuye la rotación para organizaciones de ventas B2B. Servimos un mercado de más de $10B donde cada empresa lucha con el mismo problema: los nuevos representantes de ventas tardan demasiado en volverse productivos, y la calidad de la capacitación varía enormemente. Nuestra plataforma entrega coaching de IA 24/7 para representantes, automatización para gerentes y visibilidad del rendimiento en tiempo real para el liderazgo - todo en un ecosistema. Hemos construido un volante de datos defensible: cada interacción entrena el modelo, creando valor compuesto para los clientes y efectos de red para el negocio. Con altos márgenes brutos, ingresos SaaS predecibles y un movimiento de aterrizar y expandir, estamos posicionados para convertirnos en el líder de categoría en habilitación de ventas nativa de IA. Esta es una oportunidad generacional para transformar cómo las empresas escalan equipos de ingresos.'
 };
