@@ -127,10 +127,9 @@
     0 4px 20px rgba(34,211,238,0.3),
     0 0 40px rgba(34,211,238,0.2);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-family: 'Orbitron', sans-serif;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-size: 0.85em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .btn-primary-futuristic::before {
@@ -179,10 +178,9 @@
   color: var(--foreground);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   backdrop-filter: blur(10px);
-  font-family: 'Orbitron', sans-serif;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-size: 0.85em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
 }
 
 .btn-secondary-glass:hover {
@@ -272,9 +270,9 @@
   background: linear-gradient(135deg, rgba(34,211,238,0.15) 0%, rgba(96,165,250,0.1) 100%);
   border: 1px solid rgba(34,211,238,0.3);
   color: #22d3ee;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   box-shadow: 0 0 20px rgba(34,211,238,0.15);
 }
@@ -324,7 +322,7 @@
   border: 1px solid rgba(34,211,238,0.2);
   backdrop-blur: blur(10px);
   transition: all 250ms;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .input-glass:focus {
@@ -359,8 +357,9 @@
   background: linear-gradient(135deg, rgba(239, 68, 68, 0.15) 0%, rgba(220, 38, 38, 0.1) 100%);
   border: 1px solid rgba(239, 68, 68, 0.3);
   color: #fca5a5;
-  font-family: 'Orbitron', sans-serif;
-  letter-spacing: 0.05em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 /* Stat badge - success/info style */
@@ -369,8 +368,9 @@
   background: linear-gradient(135deg, rgba(34,211,238,0.15) 0%, rgba(6,182,212,0.1) 100%);
   border: 1px solid rgba(34,211,238,0.3);
   color: #22d3ee;
-  font-family: 'Orbitron', sans-serif;
-  letter-spacing: 0.05em;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   box-shadow: 0 0 15px rgba(34,211,238,0.2);
 }
 

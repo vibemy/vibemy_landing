@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -49,10 +49,11 @@
   
   body {
     @apply bg-[#070A12] text-foreground;
-    font-family: 'Rajdhani', system-ui, -apple-system, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
     font-weight: 400;
     position: relative;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.01em;
+    line-height: 1.6;
   }
   
   /* Animated background gradient */
@@ -88,18 +89,24 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Orbitron', 'Rajdhani', system-ui, sans-serif;
+    font-family: 'Poppins', 'Inter', system-ui, sans-serif;
     font-weight: 700;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
   }
   
   h1 {
     font-weight: 800;
-    letter-spacing: 0.01em;
+    letter-spacing: -0.03em;
   }
   
   h2 {
     font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  
+  h3 {
+    font-weight: 600;
   }
   
   /* Ensure content is above grid/scanline overlays */
@@ -140,5 +147,6 @@ html {
 /* Tabular numbers for metrics */
 .tabular-nums {
   font-variant-numeric: tabular-nums;
-  font-family: 'Orbitron', monospace;
+  font-family: 'Inter', monospace;
+  font-weight: 600;
 }
