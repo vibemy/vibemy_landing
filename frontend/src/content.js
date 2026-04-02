@@ -62,7 +62,7 @@ export const content = {
 
   // Solution Section
   solution: {
-    title: 'Una Plataforma. Tres Audiencias. Excelencia en Ventas Continua.',
+    title: 'Plataforma Creada Específicamente para Profesionales de la Industria de Ventas',
     subtitle: 'Un ecosistema de preparación de ventas impulsado por IA que apoya a los representantes, empodera a los gerentes y brinda al liderazgo la visibilidad que necesitan para escalar ingresos de manera eficiente.',
     steps: [
       {
