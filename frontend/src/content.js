@@ -233,12 +233,12 @@ export const content = {
     title: 'Por Que Esto Es Importante!',
     subtitle: 'Convierte talento en resultados consistentes, dando estructura, claridad y control a todo el proceso de ventas.',
     thesis: [
-      'La habilitación de ventas es un mercado de más de $10B que crece al 15%+ anualmente',
-      'Toda empresa B2B con equipo de ventas necesita mejor incorporación y coaching',
-      'La IA crea barreras defensibles: volante de datos, aprendizaje continuo y bibliotecas de contenido compuesto',
-      'Modelo SaaS multi-tenant con altos márgenes brutos (80%+) e ingresos recurrentes predecibles',
-      'Efectos de red: más uso = mejores modelos de IA = mejores resultados',
-      'Movimiento de aterrizar y expandir: comienza con un equipo, escala en toda la empresa'
+      'Transforma el entrenamiento en un sistema operativo 24/7 para equipos de ventas',
+      'Cada representante ejecuta presentaciones ganadoras con estructura estandarizada, no improvisación',
+      'IA entrenada por top producers que genera aprendizaje continuo y mejora el performance del equipo',
+      'Plataforma white-label adaptable a cualquier organización, proceso y metodología de ventas',
+      'Dashboard directivo con visibilidad total: métricas en tiempo real, seguimiento y control operativo',
+      'Efecto compuesto: mayor uso genera mejores datos, decisiones más inteligentes y aumento directo en ventas'
     ],
     scalability: [
       {
