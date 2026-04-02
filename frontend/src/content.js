@@ -48,11 +48,6 @@ export const content = {
         stat: '40+ horas/mes en administración de capacitación'
       },
       {
-        title: 'Altos Costos de Rotación',
-        description: 'Los representantes no preparados fallan más rápido. El costo promedio de reemplazar un representante de ventas supera los $115,000 en reclutamiento, capacitación y oportunidades perdidas.',
-        stat: '$115K+ costo promedio de reemplazo'
-      },
-      {
         title: 'Cero Visibilidad del Rendimiento',
         description: 'El liderazgo carece de información en tiempo real sobre la preparación de los representantes, brechas de habilidades y ROI de capacitación hasta que es demasiado tarde.',
         stat: 'Reactivo en lugar de predictivo'
