@@ -554,7 +554,7 @@ function App() {
             >
               <Card className="glass-card">
                 <CardHeader>
-                  <CardTitle>Investment Thesis</CardTitle>
+                  <CardTitle>Datos Importantes</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
