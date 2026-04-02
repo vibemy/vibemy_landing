@@ -251,7 +251,7 @@ export const content = {
       },
       {
         title: 'Apalancamiento Con Inteligencia Artificial',
-        description: 'El éxito del cliente escala sub-linealmente. El coaching de IA autoservicio reduce la carga de soporte.'
+        description: 'Usa inteligencia artificial para escalar el conocimiento, acelerar resultados y multiplicar el rendimiento de todo el equipo de ventas.'
       }
     ]
   },
