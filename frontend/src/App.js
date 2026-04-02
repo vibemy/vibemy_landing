@@ -46,7 +46,7 @@ function App() {
       setNavScrolled(window.scrollY > 20);
       
       // Update active section
-      const sections = ['hero', 'problem', 'solution', 'features', 'impact', 'investors', 'traction', 'demo'];
+      const sections = ['hero', 'problem', 'solution', 'features', 'impact', 'investors', 'demo'];
       for (const section of sections) {
         const element = document.getElementById(section);
         if (element) {
@@ -136,7 +136,6 @@ function App() {
                 { id: 'solution', label: 'Solution' },
                 { id: 'features', label: 'Features' },
                 { id: 'investors', label: 'Investors' },
-                { id: 'traction', label: 'Traction' },
                 { id: 'demo', label: 'Demo' }
               ].map((item) => (
                 <button
@@ -184,7 +183,6 @@ function App() {
                   { id: 'solution', label: 'Solution' },
                   { id: 'features', label: 'Features' },
                   { id: 'investors', label: 'Investors' },
-                  { id: 'traction', label: 'Traction' },
                   { id: 'demo', label: 'Demo' }
                 ].map((item) => (
                   <button
@@ -591,81 +589,6 @@ function App() {
                   </CardContent>
                 </Card>
               ))}
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      <Separator className="separator-glow" />
-
-      {/* Traction Section */}
-      <section
-        id="traction"
-        data-testid="traction-section"
-        className="section-spacing"
-      >
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="text-center max-w-3xl mx-auto mb-16"
-          >
-            <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mb-4">
-              {content.traction.title}
-            </h2>
-            <p className="text-base md:text-lg text-muted-foreground">
-              {content.traction.subtitle}
-            </p>
-          </motion.div>
-
-          <div className="max-w-4xl mx-auto">
-            {/* Milestones Timeline */}
-            <motion.div
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-              className="mb-12"
-            >
-              <h3 className="text-lg font-semibold mb-6">Key Milestones</h3>
-              <div className="space-y-4">
-                {content.traction.milestones.map((milestone, index) => (
-                  <Card key={index} className="glass-card">
-                    <CardContent className="pt-6">
-                      <div className="flex items-center gap-4">
-                        <Badge variant="outline" className="shrink-0 border-cyan-300/30 text-cyan-300">
-                          {milestone.quarter}
-                        </Badge>
-                        <p className="text-sm sm:text-base">
-                          {milestone.achievement}
-                          {milestone.placeholder && (
-                            <span className="text-muted-foreground italic ml-2">(Placeholder)</span>
-                          )}
-                        </p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
-            </motion.div>
-
-            {/* Roadmap */}
-            <motion.div
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-            >
-              <h3 className="text-lg font-semibold mb-6">Next 2 Quarters Roadmap</h3>
-              <div className="flex flex-wrap gap-3">
-                {content.traction.roadmap.map((item, index) => (
-                  <Badge key={index} variant="secondary" className="px-3 py-1.5 bg-white/5 border border-white/10 text-foreground">
-                    {item}
-                  </Badge>
-                ))}
-              </div>
             </motion.div>
           </div>
         </div>
