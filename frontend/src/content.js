@@ -29,7 +29,7 @@ export const content = {
 
   // Problem Section
   problem: {
-    title: 'Los retos que hacen una rotura del sistema de entrenamientos',
+    title: 'Fallas que debilitan el sistema de entrenamiento',
     subtitle: 'La habilitación de ventas tradicional está rota. Los resultados hablan por sí mismos.',
     painPoints: [
       {
