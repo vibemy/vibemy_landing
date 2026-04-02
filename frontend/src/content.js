@@ -181,7 +181,7 @@ export const content = {
 
   // Business Impact
   impact: {
-    title: 'Resultados medible desde el día uno',
+    title: 'Resultados medibles desde el día uno',
     subtitle: 'Impulsa resultados reales: mejor porcentaje de cierre, mayor rendimiento del equipo y control total del proceso de ventas.',
     outcomes: [
       {
