@@ -197,7 +197,7 @@ export const content = {
       },
       {
         metric: 'Coaching Consistente',
-        description: 'Cada representante recibe capacitación de clase mundial, independientemente del gerente',
+        description: 'Cada representante recibe capacitación personalizada, alineada al sistema de su organización, basada en presentaciones ganadoras.',
         example: '100% cobertura, disponibilidad 24/7',
         icon: 'Target'
       },
