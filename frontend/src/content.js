@@ -14,7 +14,7 @@ export const content = {
   // Using first headline as default
   hero: {
     headline: 'La solución de entrenamiento impulsada por IA con recursos 24/7',
-    subheadline: 'Un ecosistema empresarial de habilitación de ventas que ofrece coaching de IA 24/7, capacitación personalizada y visibilidad del rendimiento en toda tu organización - reduciendo el tiempo de integración, disminuyendo la rotación e impulsando un crecimiento constante de ingresos.',
+    subheadline: '¿Te has preguntado si los sistemas de entrenamiento de tu empresa son los adecuados? ¿Y si realmente te están dando visibilidad y predictibilidad sobre el rendimiento de tus equipos?',
     primaryCTA: 'Solicitar Demo',
     secondaryCTA: 'Ver Descripción de la Plataforma',
     badge: 'Habilitación de Ventas con IA'
