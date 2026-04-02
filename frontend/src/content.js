@@ -231,7 +231,7 @@ export const content = {
   // Investor Value Proposition
   investors: {
     title: 'Por Que Esto Es Importante!',
-    subtitle: 'Esta es una oportunidad que define la categoría en un mercado masivo y desatendido.',
+    subtitle: 'Convierte talento en resultados consistentes, dando estructura, claridad y control a todo el proceso de ventas.',
     thesis: [
       'La habilitación de ventas es un mercado de más de $10B que crece al 15%+ anualmente',
       'Toda empresa B2B con equipo de ventas necesita mejor incorporación y coaching',
