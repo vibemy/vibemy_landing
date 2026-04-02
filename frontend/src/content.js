@@ -58,7 +58,7 @@ export const content = {
   // Solution Section
   solution: {
     title: 'Plataforma Creada Específicamente para Profesionales de la Industria de Ventas',
-    subtitle: 'Un ecosistema de preparación de ventas impulsado por IA que apoya a los representantes, empodera a los gerentes y brinda al liderazgo la visibilidad que necesitan para escalar ingresos de manera eficiente.',
+    subtitle: 'Un sistema operativo de ventas impulsado por IA que guía a los representantes, amplifica a los managers y da al liderazgo el control y la visibilidad para escalar la producción de forma consistente.',
     steps: [
       {
         number: '01',
