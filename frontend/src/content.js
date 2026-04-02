@@ -181,7 +181,7 @@ export const content = {
 
   // Business Impact
   impact: {
-    title: 'Impacto Empresarial Medible Desde el Día Uno',
+    title: 'Resultados medible desde el día uno',
     subtitle: 'La plataforma entrega resultados que importan a tu junta directiva e inversionistas.',
     outcomes: [
       {
