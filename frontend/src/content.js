@@ -13,7 +13,7 @@ export const content = {
   
   // Using first headline as default
   hero: {
-    headline: 'La Plataforma de Preparación de Ventas con IA Que Escala Tu Equipo de Ingresos',
+    headline: 'La solucion a entrenamientos enpoderados por IA con recursos 24/7',
     subheadline: 'Un ecosistema empresarial de habilitación de ventas que ofrece coaching de IA 24/7, capacitación personalizada y visibilidad del rendimiento en toda tu organización - reduciendo el tiempo de integración, disminuyendo la rotación e impulsando un crecimiento constante de ingresos.',
     primaryCTA: 'Solicitar Demo',
     secondaryCTA: 'Ver Descripción de la Plataforma',
