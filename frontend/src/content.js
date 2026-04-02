@@ -182,7 +182,7 @@ export const content = {
   // Business Impact
   impact: {
     title: 'Resultados medible desde el día uno',
-    subtitle: 'La plataforma entrega resultados que importan a tu junta directiva e inversionistas.',
+    subtitle: 'Impulsa resultados reales: mejor porcentaje de cierre, mayor rendimiento del equipo y control total del proceso de ventas.',
     outcomes: [
       {
         metric: 'Tiempo de Integración Más Rápido',
