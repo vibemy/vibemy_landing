@@ -296,7 +296,7 @@ export const content = {
 
   // Demo Form
   demoForm: {
-    title: 'Construyamos Juntos el Futuro de la Habilitación de Ventas',
+    title: 'Construyamos Juntos el Futuro de las Ventas',
     subtitle: 'Solicita una demo para ver cómo Sales Academy puede transformar tu organización de ventas.',
     fields: {
       name: 'Nombre Completo',
