@@ -250,7 +250,7 @@ export const content = {
         description: 'Los recursos de capacitación generados por IA crean una biblioteca que se vuelve más valiosa con el tiempo.'
       },
       {
-        title: 'Apalancamiento Operacional',
+        title: 'Apalancamiento Con Inteligencia Artificial',
         description: 'El éxito del cliente escala sub-linealmente. El coaching de IA autoservicio reduce la carga de soporte.'
       }
     ]
