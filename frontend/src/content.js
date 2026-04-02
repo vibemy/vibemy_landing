@@ -30,7 +30,7 @@ export const content = {
   // Problem Section
   problem: {
     title: 'Fallas que debilitan el sistema de entrenamiento',
-    subtitle: 'La habilitación de ventas tradicional está rota. Los resultados hablan por sí mismos.',
+    subtitle: 'El sistema actual de entrenamiento en ventas está quebrado. Los resultados son evidencia.',
     painPoints: [
       {
         title: 'Tiempos de Integración Lentos',
